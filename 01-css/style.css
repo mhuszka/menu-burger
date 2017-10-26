@@ -71,6 +71,11 @@ nav {
     padding: 10px 38px 10px 0;
 }
 
+.nombre-article{
+    display: none;
+}
+
+
 
 /********** MEDIA QUERIES *****************/
 
@@ -126,11 +131,13 @@ nav {
     }
 
     .nombre-article {
+        display: block;
         align-self: flex-start;
         margin: -15px 0 0 35px;
     }
 
     .nombre-article p {
+        display: block;
         font-family: 'lora', 'serif';
         font-size: 15px;
         color: #4b4b4b;
